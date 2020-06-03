@@ -664,3 +664,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.03-00.24.28:103][374]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Delete_me922555A041A5249238B08B8FACCA4C44.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Blueprint/Delete_me.uasset'
 [2020.06.03-00.24.28:117][374]AssetCheck: New page: Asset Save: Delete_me
 [2020.06.03-00.24.28:117][374]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/Delete_me.Delete_me
+[2020.06.03-00.48.20:947][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.06.03-00.48.22:455][220]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.03-00.48.22:543][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.06.03-00.48.22:559][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.03-00.48.22:567][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.03-00.48.25:656][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
