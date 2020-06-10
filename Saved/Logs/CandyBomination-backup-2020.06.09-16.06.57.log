@@ -1,0 +1,1520 @@
+﻿Log file open, 06/09/20 10:26:18
+LogInit: Display: Running engine for game: CandyBomination
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.112064
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13144385
+LogInit: Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: AMD Radeon (TM) RX 480
+LogInit: Compiled (64-bit): May  2 2020 02:12:11
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Users/beaul/Desktop/Unreal Engine/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Engine.ini]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Engine.ini]
+[2020.06.09-14.26.19:089][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Engine.ini]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Engine.ini]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.09-14.26.19:089][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Engine.ini]
+[2020.06.09-14.26.19:089][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Engine.ini]
+[2020.06.09-14.26.19:098][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.09-14.26.19:098][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.09-14.26.19:099][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.09-14.26.19:099][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.09-14.26.19:099][  0]LogHAL: Display: Platform has ~ 16 GB [17077764096 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.09-14.26.19:099][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.09-14.26.19:099][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.09-14.26.19:099][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Scalability.ini]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.09-14.26.19:100][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.09-14.26.19:101][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.09-14.26.19:101][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.09-14.26.19:101][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.06.09-14.26.19:101][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Config/Windows/Engine.ini]
+[2020.06.09-14.26.19:101][  0]LogInit: Computer: DESKTOP-P914M35
+[2020.06.09-14.26.19:101][  0]LogInit: User: beaul
+[2020.06.09-14.26.19:101][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.06.09-14.26.19:101][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.09-14.26.19:101][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.06.09-14.26.19:101][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.09-14.26.19:101][  0]LogMemory: Process Physical Memory: 114.07 MB used, 114.07 MB peak
+[2020.06.09-14.26.19:101][  0]LogMemory: Process Virtual Memory: 96.39 MB used, 96.39 MB peak
+[2020.06.09-14.26.19:101][  0]LogMemory: Physical Memory: 7062.93 MB used,  9223.70 MB free, 16286.63 MB total
+[2020.06.09-14.26.19:101][  0]LogMemory: Virtual Memory: 5158.58 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.06.09-14.26.19:107][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.09-14.26.19:136][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.06.09-14.26.19:137][  0]LogInit: Using OS detected language (en-US).
+[2020.06.09-14.26.19:137][  0]LogInit: Using OS detected locale (fr-CA).
+[2020.06.09-14.26.19:143][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.06.09-14.26.19:329][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.09-14.26.19:369][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.09-14.26.19:369][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.09-14.26.19:488][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.09-14.26.19:488][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.09-14.26.19:488][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.09-14.26.19:488][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.09-14.26.19:529][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) RX 480' (Feature Level 11_0)
+[2020.06.09-14.26.19:529][  0]LogD3D11RHI:       8172/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2020.06.09-14.26.19:560][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.06.09-14.26.19:560][  0]LogD3D11RHI:       128/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.06.09-14.26.19:562][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.09-14.26.19:562][  0]LogD3D11RHI:       0/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.09-14.26.19:562][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.09-14.26.19:570][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.09-14.26.19:570][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2020.06.09-14.26.19:570][  0]LogWindows: EnumDisplayDevices:
+[2020.06.09-14.26.19:570][  0]LogWindows:    0. 'AMD Radeon (TM) RX 480' (P:0 D:1)
+[2020.06.09-14.26.19:570][  0]LogWindows:    1. 'AMD Radeon (TM) RX 480' (P:1 D:1)
+[2020.06.09-14.26.19:571][  0]LogWindows:    2. 'AMD Radeon (TM) RX 480' (P:0 D:0)
+[2020.06.09-14.26.19:571][  0]LogWindows:    3. 'AMD Radeon (TM) RX 480' (P:0 D:0)
+[2020.06.09-14.26.19:571][  0]LogWindows:    4. 'AMD Radeon (TM) RX 480' (P:0 D:0)
+[2020.06.09-14.26.19:571][  0]LogWindows:    5. 'AMD Radeon (TM) RX 480' (P:0 D:0)
+[2020.06.09-14.26.19:572][  0]LogWindows:    6. 'AMD Radeon (TM) RX 480' (P:0 D:0)
+[2020.06.09-14.26.19:572][  0]LogWindows:    7. 'AMD Radeon (TM) RX 480' (P:0 D:0)
+[2020.06.09-14.26.19:573][  0]LogWindows:    8. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.06.09-14.26.19:573][  0]LogWindows:    9. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.06.09-14.26.19:573][  0]LogWindows:    10. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.06.09-14.26.19:573][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:8 
+[2020.06.09-14.26.19:573][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) RX 480
+[2020.06.09-14.26.19:573][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.2.2 (internal:26.20.15019.19000, unified:26.20.15019.19000)
+[2020.06.09-14.26.19:573][  0]LogD3D11RHI:      Driver Date: 2-28-2020
+[2020.06.09-14.26.19:573][  0]LogRHI: Texture pool is 5720 MB (70% of 8172 MB)
+[2020.06.09-14.26.19:741][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.06.09-14.26.19:741][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.09-14.26.19:741][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.06.09-14.26.19:753][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.06.09-14.26.20:067][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.09-14.26.20:089][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.09-14.26.20:089][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.09-14.26.20:089][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.09-14.26.20:089][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.09-14.26.20:089][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.09-14.26.20:089][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.09-14.26.20:089][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.09-14.26.20:089][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.09-14.26.20:089][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.09-14.26.20:089][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.09-14.26.20:110][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.09-14.26.20:110][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.09-14.26.20:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.06.09-14.26.20:128][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.09-14.26.20:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.09-14.26.20:144][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.09-14.26.20:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.09-14.26.20:159][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.09-14.26.20:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.09-14.26.20:189][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.09-14.26.20:189][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.09-14.26.20:203][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.09-14.26.20:203][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.09-14.26.20:210][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.09-14.26.20:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.09-14.26.20:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.09-14.26.20:235][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.09-14.26.20:235][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.09-14.26.20:243][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.09-14.26.20:291][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Intermediate/Shaders/WorkingDirectory/15040/).
+[2020.06.09-14.26.20:291][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/beaul/AppData/Local/Temp/UnrealShaderWorkingDir/9EED192748B06977A1C195B5547332C0/'.
+[2020.06.09-14.26.20:292][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.09-14.26.20:292][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.09-14.26.20:292][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.09-14.26.21:006][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.09-14.26.21:086][  0]LogDerivedDataCache: Loaded boot cache 0.08s 104MB C:/Users/beaul/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.09-14.26.21:086][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/beaul/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.06.09-14.26.21:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.09-14.26.21:086][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.09-14.26.21:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.09-14.26.21:086][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.09-14.26.21:096][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.09-14.26.21:096][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.09-14.26.21:096][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.09-14.26.21:097][  0]LogDerivedDataCache: Using Local data cache path C:/Users/beaul/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.09-14.26.21:097][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.09-14.26.21:097][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.09-14.26.21:163][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.09-14.26.21:163][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.09-14.26.21:184][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2020.06.09-14.26.21:402][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.09-14.26.21:521][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.09-14.26.21:521][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.09-14.26.21:521][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.09-14.26.21:521][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.09-14.26.21:521][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.09-14.26.21:541][  0]LogNetVersion: CandyBomination 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1164043613)
+[2020.06.09-14.26.21:937][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000019590552240), frame # 0
+[2020.06.09-14.26.21:937][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000195904B2D40), frame # 0
+[2020.06.09-14.26.21:938][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000195904F5E00), frame # 0
+[2020.06.09-14.26.21:998][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.053653 seconds
+[2020.06.09-14.26.22:004][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.06.09-14.26.22:004][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.06.09-14.26.22:004][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.09-14.26.22:408][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.09-14.26.22:412][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.09-14.26.22:498][  0]SourceControl: Source control is disabled
+[2020.06.09-14.26.22:498][  0]SourceControl: Source control is disabled
+[2020.06.09-14.26.22:501][  0]SourceControl: Source control is disabled
+[2020.06.09-14.26.22:504][  0]SourceControl: Source control is disabled
+[2020.06.09-14.26.22:512][  0]SourceControl: Source control is disabled
+[2020.06.09-14.26.22:767][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.09-14.26.22:785][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.09-14.26.22:785][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.09-14.26.22:831][  0]LogOcInput: OculusInput pre-init called
+[2020.06.09-14.26.22:841][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.09-14.26.22:841][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.09-14.26.22:893][  0]LogEngine: Initializing Engine...
+[2020.06.09-14.26.22:894][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.09-14.26.22:894][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.06.09-14.26.22:895][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.09-14.26.23:037][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.09-14.26.23:045][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.09-14.26.23:045][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019597B8FC00), frame # 0
+[2020.06.09-14.26.23:045][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019597BF9940), frame # 0
+[2020.06.09-14.26.23:062][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.09-14.26.23:062][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.09-14.26.23:062][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.09-14.26.23:062][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.09-14.26.23:062][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.09-14.26.23:062][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.09-14.26.23:062][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.09-14.26.23:062][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.09-14.26.23:062][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.09-14.26.23:063][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.09-14.26.23:091][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.09-14.26.23:091][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.09-14.26.23:131][  0]LogAudioMixer: Display: Using Audio Device Casque pour téléphone (HyperX Virtual Surround Sound)
+[2020.06.09-14.26.23:134][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.09-14.26.23:136][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.09-14.26.23:136][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.09-14.26.23:137][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.09-14.26.23:138][  0]LogInit: FAudioDevice initialized.
+[2020.06.09-14.26.23:138][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.09-14.26.23:619][  0]LogDerivedDataCache: Saved boot cache 0.48s 104MB C:/Users/beaul/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.09-14.26.23:620][  0]LogInit: Texture streaming: Enabled
+[2020.06.09-14.26.23:636][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.09-14.26.23:636][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.09-14.26.23:638][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.09-14.26.23:674][  0]LogInit: Transaction tracking system initialized
+[2020.06.09-14.26.23:694][  0]BlueprintLog: New page: Editor Load
+[2020.06.09-14.26.23:767][  0]LocalizationService: Localization service is disabled
+[2020.06.09-14.26.23:909][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.09-14.26.23:909][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.09-14.26.23:917][  0]LogFileCache: Scanning file cache for directory 'C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Content/' took 0.00s
+[2020.06.09-14.26.24:200][  0]SourceControl: Source control is disabled
+[2020.06.09-14.26.24:200][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.681
+[2020.06.09-14.26.24:200][  0]Cmd: MAP LOAD FILE="../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/CandyBomination_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.09-14.26.24:200][  0]LogEditorServer: Warning: Can't find file '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/CandyBomination_Map.umap'
+[2020.06.09-14.26.24:201][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.09-14.26.24:201][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,108ms to complete.
+[2020.06.09-14.26.24:201][  0]LogFileHelpers: Loading map 'CandyBomination_Map' took 0.000
+[2020.06.09-14.26.24:202][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.683
+[2020.06.09-14.26.24:395][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.09-14.26.24:402][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.09-14.26.24:409][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.09-14.26.24:416][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.09-14.26.24:424][  0]LogCollectionManager: Loaded 0 collections in 0.002042 seconds
+[2020.06.09-14.26.24:437][  0]LogFileCache: Scanning file cache for directory 'C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Collections/' took 0.00s
+[2020.06.09-14.26.24:438][  0]LogFileCache: Scanning file cache for directory 'C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Content/Developers/beaul/Collections/' took 0.00s
+[2020.06.09-14.26.24:438][  0]LogFileCache: Scanning file cache for directory 'C:/Users/beaul/OneDrive/Documents/Unreal Projects/CandyBomination/Content/Collections/' took 0.00s
+[2020.06.09-14.26.24:438][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3426 classes and 820 folders.
+[2020.06.09-14.26.24:443][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.09-14.26.24:865][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.09-14.26.24:866][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.06.09-14.26.24:942][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.09-14.26.24:943][  0]LogSlate: Took 0.000077 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.09-14.26.24:957][  0]LogSlate: Took 0.010585 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.09-14.26.25:030][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2020.06.09-14.26.25:046][  0]LogSlate: Took 0.001191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.09-14.26.25:144][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.06.09-14.26.25:144][  0]LogLoad: (Engine Initialization) Total time: 7.62 seconds
+[2020.06.09-14.26.25:144][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.09-14.26.25:192][  0]LogAssetRegistry: Asset discovery search completed in 4.0091 seconds
+[2020.06.09-14.26.25:198][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.06.09-14.26.25:199][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.09-14.26.28:383][301]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Debug_Map.Debug_Map
+[2020.06.09-14.26.28:392][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.06.09-14.26.28:396][301]Cmd: MAP LOAD FILE="../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Debug_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.09-14.26.28:396][301]LightingResults: New page: Lighting Build
+[2020.06.09-14.26.28:396][301]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 6 classes and 0 folders.
+[2020.06.09-14.26.28:397][301]LoadErrors: New page: Loading map: Debug_Map.umap
+[2020.06.09-14.26.28:397][301]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.09-14.26.28:397][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.09-14.26.28:397][301]MapCheck: New page: Map Check
+[2020.06.09-14.26.28:397][301]LightingResults: New page: Lighting Build
+[2020.06.09-14.26.28:405][301]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019597B8FC00), frame # 301
+[2020.06.09-14.26.28:405][301]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019597BF9940), frame # 301
+[2020.06.09-14.26.28:406][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.06.09-14.26.28:415][301]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.09-14.26.28:415][301]LogAIModule: Creating AISystem for world Debug_Map
+[2020.06.09-14.26.28:415][301]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019597BF5E00), frame # 301
+[2020.06.09-14.26.28:415][301]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000195A17FDBC0), frame # 301
+[2020.06.09-14.26.28:424][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.06.09-14.26.28:441][301]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.09-14.26.28:441][301]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,114ms to complete.
+[2020.06.09-14.26.28:441][301]LogFileHelpers: Loading map 'Debug_Map' took 0.046
+[2020.06.09-15.32.21:033][611]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\beaul\OneDrive\Images\Construction Texture.png)
+[2020.06.09-15.32.21:036][611]LogTexture: Display: Building textures: Construction_Texture (AutoDXT, 164X164)
+[2020.06.09-15.32.27:450][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.06.09-15.32.27:471][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Construction_Texture" FILE="../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Textures/Construction_Texture.uasset" SILENT=true
+[2020.06.09-15.32.27:475][270]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Construction_Texture7D22788C48CB6B7D7A57DDB080E30A71.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Textures/Construction_Texture.uasset'
+[2020.06.09-15.32.27:485][270]AssetCheck: New page: Asset Save: Construction_Texture
+[2020.06.09-15.32.27:485][270]LogContentValidation: Display: Validating Texture2D /Game/Textures/Construction_Texture.Construction_Texture
+[2020.06.09-15.32.33:154][850]LogTexture: Display: Building textures: Construction_Texture (BGRA8, 164X164)
+[2020.06.09-15.32.38:814][428]LogSlate: Took 0.000447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.09-15.32.54:270][224]LogSlate: Window 'Extract sprites' being destroyed
+[2020.06.09-15.33.00:807][932]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Construction_Texture_Sprite_0C16665094968D19C867484AC48E75959.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/Construction_Texture_Sprite_0.uasset'
+[2020.06.09-15.33.00:907][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.06.09-15.33.00:923][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.06.09-15.33.00:931][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.09-15.33.00:954][932]AssetCheck: New page: Asset Save: Construction_Texture_Sprite_0
+[2020.06.09-15.33.00:954][932]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/Construction_Texture_Sprite_0.Construction_Texture_Sprite_0
+[2020.06.09-15.33.54:194][426]LogSlate: Window 'Project Settings' being destroyed
+[2020.06.09-15.33.54:198][426]LogSlate: Window 'Project Settings' being destroyed
+[2020.06.09-15.34.21:627][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.06.09-15.34.21:630][684]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Debug_Map' took 0.011
+[2020.06.09-15.34.21:630][684]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Construction_Texture] ([1] browsable assets)...
+[2020.06.09-15.34.21:633][684]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Construction_Texture.Construction_Texture]
+[2020.06.09-15.34.21:633][684]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Construction_Texture]
+[2020.06.09-15.34.21:657][684]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Construction_Texture_Auto107C33ECE4E8B20B3DD85279F71AE469D.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Autosaves/Game/Textures/Construction_Texture_Auto1.uasset'
+[2020.06.09-15.34.21:657][684]LogFileHelpers: Auto-saving content packages took 0.027
+[2020.06.09-15.35.14:438][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_IdleAnimAtlas_Sprite5980677343DBC251D737A98E9C2E77E6.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_0.uasset'
+[2020.06.09-15.35.14:455][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_IdleAnimAtlas_Sprite11563CE64E4FD07C1A1E448BD4AB12AF.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_1.uasset'
+[2020.06.09-15.35.14:465][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_IdleAnimAtlas_Sprite84DCF2074C701E0F69C4A9BE50D8DB99.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_2.uasset'
+[2020.06.09-15.35.14:474][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_IdleAnimAtlas_SpriteF953D9A74CA745424F4B2596C1CA06F1.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_3.uasset'
+[2020.06.09-15.35.14:484][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_IdleAnimAtlas_Sprite0989665942CB11747515CBB646AFEFF4.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_4.uasset'
+[2020.06.09-15.35.14:495][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_IdleAnimAtlas_Sprite3FE831E2489295A3DD6EC691C20A7474.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_5.uasset'
+[2020.06.09-15.35.14:506][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_IdleAnimAtlas_SpriteDB38B84947CC86096E0771ABAF2E57DE.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_6.uasset'
+[2020.06.09-15.35.14:517][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_IdleAnimAtlas_Sprite8F28C9F9408042E8E2411BB599D3105E.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_7.uasset'
+[2020.06.09-15.35.14:769][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.06.09-15.35.14:779][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.09-15.35.14:787][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.09-15.35.14:796][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.09-15.35.14:804][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.09-15.35.14:812][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.09-15.35.14:820][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.09-15.35.14:828][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.09-15.35.14:847][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.06.09-15.35.14:856][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2020.06.09-15.35.14:922][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterIdle_Flipbook5A26FDD24F3526A952100CA289EE8D62.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Flipbooks/CharacterIdle_Flipbook.uasset'
+[2020.06.09-15.35.15:049][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterJumping_Sprite_19AFED2254D9E47CF3EEEE78BF0ED9B61.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterJump_Animation/CharacterJumping_Sprite_1.uasset'
+[2020.06.09-15.35.15:171][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.06.09-15.35.15:190][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.06.09-15.35.15:200][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.06.09-15.35.15:251][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterJump_FlipbookEF66554A4F79637D4DC024AC39F93330.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Flipbooks/CharacterJump_Flipbook.uasset'
+[2020.06.09-15.35.15:373][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_E9E7A8BA4AAFC77B4F3118B401BF48B4.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_0.uasset'
+[2020.06.09-15.35.15:428][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_F8463F4040497E86C2F4B1800DC0F255.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_1.uasset'
+[2020.06.09-15.35.15:438][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_A9A0B8994B7C46DB25C890A9D885186E.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_10.uasset'
+[2020.06.09-15.35.15:448][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_A2EACA8C46778C44AF3E718EA4D05BA5.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_11.uasset'
+[2020.06.09-15.35.15:459][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_1BDC12BE45CCD991BEF21586299E011C.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_12.uasset'
+[2020.06.09-15.35.15:469][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_CD963858492DBDDB715E76934F083464.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_13.uasset'
+[2020.06.09-15.35.15:479][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_E8215B0A420D146C18317091144AB151.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_14.uasset'
+[2020.06.09-15.35.15:489][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_4C85095047C33BCDF15D5CA245267218.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_15.uasset'
+[2020.06.09-15.35.15:499][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_82A837C8471C64BCE885E687C5E29837.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_2.uasset'
+[2020.06.09-15.35.15:509][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_01E46E7243870C1AEA3154B2D023F142.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_3.uasset'
+[2020.06.09-15.35.15:520][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_06ECBEDF4CC4C0F3EE9661B7761D7FAC.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_4.uasset'
+[2020.06.09-15.35.15:603][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_FAFCA2594D00BF4D6FF520BF775FAEF2.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_5.uasset'
+[2020.06.09-15.35.15:613][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_811D204E4D46E84AB5CB5E970D2F8C18.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_6.uasset'
+[2020.06.09-15.35.15:623][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_51E3BC074E8C9F03C39252B57FCE81A4.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_7.uasset'
+[2020.06.09-15.35.15:634][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_6EA3E14B4C8599F0A6E2D1BB82E7780C.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_8.uasset'
+[2020.06.09-15.35.15:644][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Sprite_69E9DE3E48E641287D91058E9B369FC4.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_9.uasset'
+[2020.06.09-15.35.16:070][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.06.09-15.35.16:079][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.09-15.35.16:087][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.09-15.35.16:095][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.09-15.35.16:104][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.09-15.35.16:112][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2020.06.09-15.35.16:120][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.09-15.35.16:128][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2020.06.09-15.35.16:136][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.09-15.35.16:144][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.09-15.35.16:153][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.09-15.35.16:161][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.09-15.35.16:169][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.09-15.35.16:176][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.09-15.35.16:184][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.09-15.35.16:193][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2020.06.09-15.35.16:208][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.06.09-15.35.16:217][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.09-15.35.16:269][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/CharacterRun_Flipbook" FILE="../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Flipbooks/CharacterRun_Flipbook.uasset" SILENT=true
+[2020.06.09-15.35.16:284][ 67]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterRun_FlipbookE1112C2B450DDAE766F8B0B094BB77E8.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Flipbooks/CharacterRun_Flipbook.uasset'
+[2020.06.09-15.35.16:333][ 67]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_0.2DCharacter_IdleAnimAtlas_Sprite_0
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_1.2DCharacter_IdleAnimAtlas_Sprite_1
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_2.2DCharacter_IdleAnimAtlas_Sprite_2
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_3.2DCharacter_IdleAnimAtlas_Sprite_3
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_4.2DCharacter_IdleAnimAtlas_Sprite_4
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_5.2DCharacter_IdleAnimAtlas_Sprite_5
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_6.2DCharacter_IdleAnimAtlas_Sprite_6
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterIdle_Animation/2DCharacter_IdleAnimAtlas_Sprite_7.2DCharacter_IdleAnimAtlas_Sprite_7
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/CharacterIdle_Flipbook.CharacterIdle_Flipbook
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterJump_Animation/CharacterJumping_Sprite_1.CharacterJumping_Sprite_1
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/CharacterJump_Flipbook.CharacterJump_Flipbook
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_0.2DCharacter_RunAnimAtlas_Sprite_0
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_1.2DCharacter_RunAnimAtlas_Sprite_1
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_10.2DCharacter_RunAnimAtlas_Sprite_10
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_11.2DCharacter_RunAnimAtlas_Sprite_11
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_12.2DCharacter_RunAnimAtlas_Sprite_12
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_13.2DCharacter_RunAnimAtlas_Sprite_13
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_14.2DCharacter_RunAnimAtlas_Sprite_14
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_15.2DCharacter_RunAnimAtlas_Sprite_15
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_2.2DCharacter_RunAnimAtlas_Sprite_2
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_3.2DCharacter_RunAnimAtlas_Sprite_3
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_4.2DCharacter_RunAnimAtlas_Sprite_4
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_5.2DCharacter_RunAnimAtlas_Sprite_5
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_6.2DCharacter_RunAnimAtlas_Sprite_6
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_7.2DCharacter_RunAnimAtlas_Sprite_7
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_8.2DCharacter_RunAnimAtlas_Sprite_8
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterRun_Animation/2DCharacter_RunAnimAtlas_Sprite_9.2DCharacter_RunAnimAtlas_Sprite_9
+[2020.06.09-15.35.16:334][ 67]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/CharacterRun_Flipbook.CharacterRun_Flipbook
+[2020.06.09-15.35.30:512][914]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/Data/AnimationsState.AnimationsState
+[2020.06.09-15.36.04:480][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/AnimationsState" FILE="../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Data/AnimationsState.uasset" SILENT=true
+[2020.06.09-15.36.04:501][877]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/AnimationsState17E57F624D02305BDFED31A2D50ED3D9.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Data/AnimationsState.uasset'
+[2020.06.09-15.36.04:511][877]AssetCheck: New page: Asset Save: AnimationsState
+[2020.06.09-15.36.04:511][877]LogContentValidation: Display: Validating UserDefinedEnum /Game/Data/AnimationsState.AnimationsState
+[2020.06.09-15.36.05:796][ 23]LogSlate: Window 'AnimationsState' being destroyed
+[2020.06.09-15.36.05:799][ 23]LogSlate: Window 'AnimationsState' being destroyed
+[2020.06.09-15.37.24:241][580]LogTexture: Display: Building textures: CharacterJumping (BGRA8, 256X256)
+[2020.06.09-15.37.32:048][370]LogTexture: Display: Building textures: 2DCharacter_RunAnimAtlas (BGRA8, 1024X1024)
+[2020.06.09-15.37.36:960][848]LogTexture: Display: Building textures: 2DCharacter_IdleAnimAtlas (BGRA8, 1024X1024)
+[2020.06.09-15.37.46:493][836]LogSlate: Window 'Extract sprites' being destroyed
+[2020.06.09-15.37.50:035][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.06.09-15.37.51:544][250]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.09-15.37.51:629][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.06.09-15.38.08:110][150]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterDeath_Sprite_19F0477004BDC3606ADA26D9A776AD896.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Textures/CharacterDeath_Sprite_1.uasset'
+[2020.06.09-15.38.08:240][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.06.09-15.38.08:257][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2020.06.09-15.38.08:266][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.09-15.38.08:284][150]AssetCheck: New page: Asset Save: CharacterDeath_Sprite_1
+[2020.06.09-15.38.08:285][150]LogContentValidation: Display: Validating PaperSprite /Game/Textures/CharacterDeath_Sprite_1.CharacterDeath_Sprite_1
+[2020.06.09-15.38.17:887][235]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterDeath_Sprite_1A8EF884547ACE289CB38DD9C945A6EAE.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterDeath_Sprite_1.uasset'
+[2020.06.09-15.38.18:016][235]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.09-15.38.18:032][235]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.06.09-15.38.18:041][235]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.09-15.38.18:060][235]AssetCheck: New page: Asset Save: CharacterDeath_Sprite_1
+[2020.06.09-15.38.18:061][235]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterDeath_Sprite_1.CharacterDeath_Sprite_1
+[2020.06.09-15.38.29:430][471]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterDeath_Sprite_11AA7A86647B7856F36681C95B4BE5188.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterDeath_Animation/CharacterDeath_Sprite_1.uasset'
+[2020.06.09-15.38.29:560][471]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.09-15.38.29:581][471]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.06.09-15.38.29:590][471]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.09-15.38.29:612][471]AssetCheck: New page: Asset Save: CharacterDeath_Sprite_1
+[2020.06.09-15.38.29:612][471]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterDeath_Animation/CharacterDeath_Sprite_1.CharacterDeath_Sprite_1
+[2020.06.09-15.38.31:224][639]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Sprites/CharacterAnimations/CharacterDeath_Animation/CharacterDeath_Sprite_1.CharacterDeath_Sprite_1
+[2020.06.09-15.38.31:516][639]LogRenderer: Reallocating scene render targets to support 2460x1916 Format 10 NumSamples 1 (Frame:1).
+[2020.06.09-15.39.04:422][404]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.06.09-15.39.15:102][670]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Sprites/CharacterAnimations/CharacterDeath_Animation/CharacterDeath_Flipbook.CharacterDeath_Flipbook
+[2020.06.09-15.39.15:266][671]LogRenderer: Reallocating scene render targets to support 3060x1916 Format 10 NumSamples 1 (Frame:1).
+[2020.06.09-15.39.24:170][214]LogSlate: Window 'CharacterDeath_Flipbook' being destroyed
+[2020.06.09-15.39.24:174][214]LogSlate: Window 'CharacterDeath_Flipbook' being destroyed
+[2020.06.09-15.39.24:186][214]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.06.09-15.39.24:186][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.09-15.39.24:196][214]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.06.09-15.39.24:196][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.09-15.39.26:014][411]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.06.09-15.39.27:432][411]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.09-15.39.27:523][411]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2020.06.09-15.39.28:244][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.09-15.39.29:204][492]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.09-15.39.29:320][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.06.09-15.39.29:339][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2020.06.09-15.39.29:349][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.09-15.44.22:463][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2020.06.09-15.44.22:466][933]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Debug_Map' took 0.012
+[2020.06.09-15.44.22:466][933]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/PaperCharacter_Prototype] ([1] browsable assets)...
+[2020.06.09-15.44.22:466][933]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/PaperCharacter_Prototype]
+[2020.06.09-15.44.22:574][933]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/PaperCharacter_Prototype_Auto2E5F5D6F2417404E44AF4AEB63C39A451.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Autosaves/Game/Blueprint/PaperCharacter_Prototype_Auto2.uasset'
+[2020.06.09-15.44.22:575][933]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/2DCharacter_IdleAnimAtlas] ([1] browsable assets)...
+[2020.06.09-15.44.22:581][933]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/2DCharacter_IdleAnimAtlas.2DCharacter_IdleAnimAtlas]
+[2020.06.09-15.44.22:581][933]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/2DCharacter_IdleAnimAtlas]
+[2020.06.09-15.44.22:599][933]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_IdleAnimAtlas_Auto2F6C1BCE44CD9F0FB63F858AEB00F65AC.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Autosaves/Game/Textures/2DCharacter_IdleAnimAtlas_Auto2.uasset'
+[2020.06.09-15.44.22:600][933]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/CharacterJumping] ([1] browsable assets)...
+[2020.06.09-15.44.22:606][933]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/CharacterJumping.CharacterJumping]
+[2020.06.09-15.44.22:606][933]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/CharacterJumping]
+[2020.06.09-15.44.22:629][933]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterJumping_Auto2F2C784FE4D233AAC2622B2B3C6F25DC2.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Autosaves/Game/Textures/CharacterJumping_Auto2.uasset'
+[2020.06.09-15.44.22:630][933]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/2DCharacter_RunAnimAtlas] ([1] browsable assets)...
+[2020.06.09-15.44.22:636][933]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/2DCharacter_RunAnimAtlas.2DCharacter_RunAnimAtlas]
+[2020.06.09-15.44.22:636][933]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/2DCharacter_RunAnimAtlas]
+[2020.06.09-15.44.22:700][933]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlas_Auto220C2B2A940093DE35FF77EA3978A72C3.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Autosaves/Game/Textures/2DCharacter_RunAnimAtlas_Auto2.uasset'
+[2020.06.09-15.44.22:700][933]LogFileHelpers: Auto-saving content packages took 0.235
+[2020.06.09-15.45.53:894][626]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\beaul\Desktop\CharacterDeath.png)
+[2020.06.09-15.45.53:897][626]LogTexture: Display: Building textures: CharacterDeath (AutoDXT, 256X256)
+[2020.06.09-15.45.59:061][126]LogTexture: Display: Building textures: CharacterDeath (BGRA8, 256X256)
+[2020.06.09-15.46.12:192][414]LogSlate: Window 'Extract sprites' being destroyed
+[2020.06.09-15.46.15:323][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.06.09-15.46.17:518][759]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.09-15.46.17:594][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.06.09-15.46.25:598][657]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterDeath_Sprite_1B2C0CE724746F9574AE25AB4263184BD.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Sprites/CharacterAnimations/CharacterDeath_Animation/CharacterDeath_Sprite_1.uasset'
+[2020.06.09-15.46.25:726][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.09-15.46.25:743][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2020.06.09-15.46.25:751][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.09-15.46.25:772][657]AssetCheck: New page: Asset Save: CharacterDeath_Sprite_1
+[2020.06.09-15.46.25:772][657]LogContentValidation: Display: Validating PaperSprite /Game/Sprites/CharacterAnimations/CharacterDeath_Animation/CharacterDeath_Sprite_1.CharacterDeath_Sprite_1
+[2020.06.09-15.46.29:724][ 59]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.06.09-15.46.38:974][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Flipbooks/CharacterDeath" FILE="../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Flipbooks/CharacterDeath.uasset" SILENT=true
+[2020.06.09-15.46.38:978][133]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterDeathF5EA83B64D5A5DECDEA2F58E7A956440.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Flipbooks/CharacterDeath.uasset'
+[2020.06.09-15.46.39:107][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.06.09-15.46.39:124][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2020.06.09-15.46.39:132][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.06.09-15.46.39:154][133]AssetCheck: New page: Asset Save: CharacterDeath
+[2020.06.09-15.46.39:154][133]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/CharacterDeath.CharacterDeath
+[2020.06.09-15.47.33:486][439]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.06.09-15.47.50:281][412]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterDeath_Flipbook_Loop33F3E8F84F44049A0BE2E8AE22A87269.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Flipbooks/CharacterDeath_Flipbook_Loop.uasset'
+[2020.06.09-15.47.50:410][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.06.09-15.47.50:430][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.06.09-15.47.50:438][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2020.06.09-15.47.50:462][412]AssetCheck: New page: Asset Save: CharacterDeath_Flipbook_Loop
+[2020.06.09-15.47.50:462][412]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/CharacterDeath_Flipbook_Loop.CharacterDeath_Flipbook_Loop
+[2020.06.09-15.48.07:528][394]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterDeath_Flipbook4D91B69B463CB9345A015AA2FFE48683.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Flipbooks/CharacterDeath_Flipbook.uasset'
+[2020.06.09-15.48.07:628][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.06.09-15.48.07:646][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.06.09-15.48.07:654][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.09-15.48.07:672][394]AssetCheck: New page: Asset Save: CharacterDeath_Flipbook
+[2020.06.09-15.48.07:672][394]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/CharacterDeath_Flipbook.CharacterDeath_Flipbook
+[2020.06.09-15.48.12:836][942]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterDeath_Flipbook852EF274404897B52AC62FA82E301C7D.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Flipbooks/CharacterDeath/CharacterDeath_Flipbook.uasset'
+[2020.06.09-15.48.12:846][942]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterDeath_Flipbook_Loop542B6771490D2F0DB062B08DA8ADB86B.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Flipbooks/CharacterDeath/CharacterDeath_Flipbook_Loop.uasset'
+[2020.06.09-15.48.12:965][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.09-15.48.12:974][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2020.06.09-15.48.12:989][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.06.09-15.48.12:998][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2020.06.09-15.48.13:017][942]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.09-15.48.13:017][942]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/CharacterDeath/CharacterDeath_Flipbook.CharacterDeath_Flipbook
+[2020.06.09-15.48.13:017][942]LogContentValidation: Display: Validating PaperFlipbook /Game/Flipbooks/CharacterDeath/CharacterDeath_Flipbook_Loop.CharacterDeath_Flipbook_Loop
+[2020.06.09-15.48.43:029][ 75]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/PaperCharacter_Prototype.PaperCharacter_Prototype
+[2020.06.09-15.48.43:358][ 75]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.06.09-15.48.44:407][ 76]LogSlate: Took 0.006136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.09-15.51.22:743][ 79]LogSlate: Took 0.021953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.06.09-15.56.24:556][748]BlueprintLog: New page: Compile PaperCharacter_Prototype
+[2020.06.09-15.56.24:630][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.06.09-15.56.24:828][748]LogSlate: Took 0.023909 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.06.09-16.00.43:112][235]LogWindows: LaunchFileInExternalEditor C:/Users/beaul/Desktop/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Source/Paper2D/Classes/PaperCharacter.h 
+[2020.06.09-16.00.44:021][235]LogWindows: Launch application code for C:/Users/beaul/Desktop/Unreal Engine/UE_4.25/Engine/Plugins/2D/Paper2D/Source/Paper2D/Classes/PaperCharacter.h : 42
+[2020.06.09-16.00.44:021][235]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.06.09-16.00.44:028][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:028][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:028][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:028][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:028][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:029][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:029][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:029][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:029][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:029][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:029][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:029][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:029][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:029][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:029][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:029][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:030][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:030][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:030][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:030][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:030][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:030][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:030][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:030][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:030][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:030][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:031][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:031][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:031][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:031][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:031][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:031][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:031][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:033][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:034][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:034][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:035][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:035][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:036][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:036][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:036][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:036][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:036][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:036][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:036][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:037][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:037][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:040][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:040][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:040][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:040][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:040][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:041][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:056][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:090][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:100][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:100][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:100][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:100][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:100][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:101][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:101][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:101][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:101][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:101][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:103][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:103][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:103][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:103][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:103][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:103][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:103][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:104][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:104][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:104][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:104][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:104][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:104][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:104][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:105][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:105][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:105][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:105][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:105][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:105][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:105][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:105][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:106][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:106][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:106][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:106][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:106][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:106][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:106][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:107][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:107][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:107][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:107][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:107][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:107][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:107][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:107][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:108][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:108][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:108][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:108][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:108][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:108][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:122][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:123][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:123][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:124][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:124][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:124][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:137][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:138][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:138][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:138][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:138][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:138][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:138][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:138][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:138][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:138][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:139][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:139][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:139][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:140][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:140][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:140][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:143][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:148][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:150][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:150][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:150][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:150][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:151][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:153][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:153][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:154][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:154][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:154][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:154][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:154][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:178][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:178][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:203][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:224][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:226][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:231][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:232][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.00.44:232][235]LogVSAccessor: Warning: Couldn't access module table
+[2020.06.09-16.01.52:502][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.06.09-16.01.52:506][801]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Debug_Map' took 0.029
+[2020.06.09-16.01.52:506][801]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/PaperCharacter_Prototype] ([1] browsable assets)...
+[2020.06.09-16.01.52:506][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/PaperCharacter_Prototype]
+[2020.06.09-16.01.52:597][801]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/PaperCharacter_Prototype_Auto32D29168E4F5FFAFB51E189874CCEBEDA.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Autosaves/Game/Blueprint/PaperCharacter_Prototype_Auto3.uasset'
+[2020.06.09-16.01.52:598][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/CharacterDeath] ([1] browsable assets)...
+[2020.06.09-16.01.52:605][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/CharacterDeath.CharacterDeath]
+[2020.06.09-16.01.52:605][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/CharacterDeath]
+[2020.06.09-16.01.52:608][801]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterDeath_Auto31ECCB2D343AB2894BD068E88409012A8.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Autosaves/Game/Textures/CharacterDeath_Auto3.uasset'
+[2020.06.09-16.01.52:609][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/CharacterDeath_Sprite_2] ([1] browsable assets)...
+[2020.06.09-16.01.52:614][801]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Textures/CharacterDeath_Sprite_2.CharacterDeath_Sprite_2]
+[2020.06.09-16.01.52:614][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/CharacterDeath_Sprite_2]
+[2020.06.09-16.01.52:617][801]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterDeath_Sprite_2_Auto3EDFFB25C44959A353FB6DEAF9D94EECF.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Autosaves/Game/Textures/CharacterDeath_Sprite_2_Auto3.uasset'
+[2020.06.09-16.01.52:618][801]LogFileHelpers: Auto-saving content packages took 0.112
+[2020.06.09-16.02.40:228][404]BlueprintLog: New page: Compile PaperCharacter_Prototype
+[2020.06.09-16.02.40:291][404]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.06.09-16.02.40:964][436]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/PaperCharacter_PrototypeB18FE5CD412337B735C94CBFE0420235.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Blueprint/PaperCharacter_Prototype.uasset'
+[2020.06.09-16.02.40:980][436]AssetCheck: New page: Asset Save: PaperCharacter_Prototype
+[2020.06.09-16.02.40:980][436]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/PaperCharacter_Prototype.PaperCharacter_Prototype
+[2020.06.09-16.05.16:601][681]BlueprintLog: New page: Compile PaperCharacter_Prototype
+[2020.06.09-16.05.16:666][681]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2020.06.09-16.05.17:354][704]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/PaperCharacter_Prototype1ADE64AB4741DB4C8B2415B2D9CFB751.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Blueprint/PaperCharacter_Prototype.uasset'
+[2020.06.09-16.05.17:367][704]AssetCheck: New page: Asset Save: PaperCharacter_Prototype
+[2020.06.09-16.05.17:367][704]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/PaperCharacter_Prototype.PaperCharacter_Prototype
+[2020.06.09-16.06.51:333][762]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.06.09-16.06.51:387][762]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_IdleAnimAtlas15F4AF874E189F4B4EE96885D4B75500.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Textures/2DCharacter_IdleAnimAtlas.uasset'
+[2020.06.09-16.06.51:388][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/CharacterJumping" FILE="../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Textures/CharacterJumping.uasset" SILENT=true
+[2020.06.09-16.06.51:400][762]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterJumping3F76762A4E9FD25AFDB38D870388C8CE.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Textures/CharacterJumping.uasset'
+[2020.06.09-16.06.51:420][762]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/2DCharacter_RunAnimAtlasD16D38AC44ED442FE249719BAFEBBAA3.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Textures/2DCharacter_RunAnimAtlas.uasset'
+[2020.06.09-16.06.51:421][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Construction_Texture" FILE="../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Textures/Construction_Texture.uasset" SILENT=true
+[2020.06.09-16.06.51:434][762]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/Construction_Texture3EDBB4DA40B93A5035AD15B9EA3766F1.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Textures/Construction_Texture.uasset'
+[2020.06.09-16.06.51:435][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/CharacterDeath" FILE="../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Textures/CharacterDeath.uasset" SILENT=true
+[2020.06.09-16.06.51:438][762]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterDeath8ACDBC00453976FF198C41B750A1A116.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Textures/CharacterDeath.uasset'
+[2020.06.09-16.06.51:441][762]LogSavePackage: Moving '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Saved/CharacterDeath_Sprite_203C067114D22520E6B580E91955E2156.tmp' to '../../../../../../OneDrive/Documents/Unreal Projects/CandyBomination/Content/Textures/CharacterDeath_Sprite_2.uasset'
+[2020.06.09-16.06.51:475][762]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.09-16.06.51:475][762]LogContentValidation: Display: Validating Texture2D /Game/Textures/2DCharacter_IdleAnimAtlas.2DCharacter_IdleAnimAtlas
+[2020.06.09-16.06.51:475][762]LogContentValidation: Display: Validating Texture2D /Game/Textures/CharacterJumping.CharacterJumping
+[2020.06.09-16.06.51:475][762]LogContentValidation: Display: Validating Texture2D /Game/Textures/2DCharacter_RunAnimAtlas.2DCharacter_RunAnimAtlas
+[2020.06.09-16.06.51:475][762]LogContentValidation: Display: Validating Texture2D /Game/Textures/Construction_Texture.Construction_Texture
+[2020.06.09-16.06.51:475][762]LogContentValidation: Display: Validating Texture2D /Game/Textures/CharacterDeath.CharacterDeath
+[2020.06.09-16.06.51:475][762]LogContentValidation: Display: Validating PaperSprite /Game/Textures/CharacterDeath_Sprite_2.CharacterDeath_Sprite_2
+[2020.06.09-16.06.54:564][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2020.06.09-16.06.54:576][ 13]LogSlate: Window 'PaperCharacter_Prototype' being destroyed
+[2020.06.09-16.06.54:610][ 13]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.06.09-16.06.54:610][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.09-16.06.54:702][ 13]LogSlate: Window 'CandyBomination - Unreal Editor' being destroyed
+[2020.06.09-16.06.54:703][ 13]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.09-16.06.54:886][ 14]Cmd: QUIT_EDITOR
+[2020.06.09-16.06.54:886][ 14]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.06.09-16.06.54:893][ 14]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.06.09-16.06.54:893][ 14]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.09-16.06.54:935][ 14]LogExit: Preparing to exit.
+[2020.06.09-16.06.55:586][ 14]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.06.09-16.06.55:624][ 14]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.06.09-16.06.55:639][ 14]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.06.09-16.06.55:641][ 14]LogExit: Editor shut down
+[2020.06.09-16.06.55:643][ 14]LogExit: Transaction tracking system shut down
+[2020.06.09-16.06.55:802][ 14]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000019590552240), frame # 145014
+[2020.06.09-16.06.55:802][ 14]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000195904B2D40), frame # 145014
+[2020.06.09-16.06.55:802][ 14]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000195904F5E00), frame # 145014
+[2020.06.09-16.06.55:816][ 14]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000195A17FDBC0), frame # 145014
+[2020.06.09-16.06.55:816][ 14]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019597BF5E00), frame # 145014
+[2020.06.09-16.06.55:888][ 14]LogExit: Object subsystem successfully closed.
+[2020.06.09-16.06.55:912][ 14]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.06.09-16.06.55:939][ 14]LogModuleManager: Shutting down and abandoning module BlueprintGraph (794)
+[2020.06.09-16.06.55:940][ 14]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (792)
+[2020.06.09-16.06.55:940][ 14]LogModuleManager: Shutting down and abandoning module StatsViewer (790)
+[2020.06.09-16.06.55:940][ 14]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (788)
+[2020.06.09-16.06.55:940][ 14]LogModuleManager: Shutting down and abandoning module SceneOutliner (786)
+[2020.06.09-16.06.55:940][ 14]LogModuleManager: Shutting down and abandoning module AddContentDialog (784)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module WidgetCarousel (783)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module EditorWidgets (780)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module CollectionManager (778)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2020.06.09-16.06.55:942][ 14]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2020.06.09-16.06.55:943][ 14]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2020.06.09-16.06.57:051][ 14]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2020.06.09-16.06.57:051][ 14]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2020.06.09-16.06.57:051][ 14]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2020.06.09-16.06.57:051][ 14]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2020.06.09-16.06.57:051][ 14]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2020.06.09-16.06.57:051][ 14]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2020.06.09-16.06.57:051][ 14]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2020.06.09-16.06.57:051][ 14]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2020.06.09-16.06.57:051][ 14]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2020.06.09-16.06.57:051][ 14]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2020.06.09-16.06.57:051][ 14]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2020.06.09-16.06.57:052][ 14]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2020.06.09-16.06.57:084][ 14]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2020.06.09-16.06.57:084][ 14]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2020.06.09-16.06.57:084][ 14]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2020.06.09-16.06.57:084][ 14]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2020.06.09-16.06.57:084][ 14]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2020.06.09-16.06.57:084][ 14]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2020.06.09-16.06.57:085][ 14]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2020.06.09-16.06.57:085][ 14]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2020.06.09-16.06.57:085][ 14]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2020.06.09-16.06.57:085][ 14]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2020.06.09-16.06.57:085][ 14]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2020.06.09-16.06.57:090][ 14]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2020.06.09-16.06.57:090][ 14]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2020.06.09-16.06.57:091][ 14]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2020.06.09-16.06.57:091][ 14]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2020.06.09-16.06.57:091][ 14]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2020.06.09-16.06.57:091][ 14]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2020.06.09-16.06.57:091][ 14]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2020.06.09-16.06.57:091][ 14]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2020.06.09-16.06.57:091][ 14]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2020.06.09-16.06.57:091][ 14]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2020.06.09-16.06.57:092][ 14]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2020.06.09-16.06.57:206][ 14]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2020.06.09-16.06.57:207][ 14]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2020.06.09-16.06.57:208][ 14]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2020.06.09-16.06.57:208][ 14]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2020.06.09-16.06.57:208][ 14]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2020.06.09-16.06.57:208][ 14]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.06.09-16.06.57:208][ 14]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.06.09-16.06.57:208][ 14]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.06.09-16.06.57:208][ 14]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.06.09-16.06.57:208][ 14]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.06.09-16.06.57:208][ 14]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.06.09-16.06.57:208][ 14]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.06.09-16.06.57:308][ 14]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.06.09-16.06.57:409][ 14]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.06.09-16.06.57:409][ 14]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.06.09-16.06.57:409][ 14]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.06.09-16.06.57:410][ 14]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.06.09-16.06.57:410][ 14]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.06.09-16.06.57:410][ 14]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.06.09-16.06.57:410][ 14]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.06.09-16.06.57:410][ 14]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.06.09-16.06.57:410][ 14]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.06.09-16.06.57:410][ 14]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.06.09-16.06.57:411][ 14]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.06.09-16.06.57:411][ 14]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.06.09-16.06.57:411][ 14]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.06.09-16.06.57:411][ 14]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.06.09-16.06.57:411][ 14]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.06.09-16.06.57:411][ 14]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.06.09-16.06.57:411][ 14]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.06.09-16.06.57:411][ 14]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.06.09-16.06.57:411][ 14]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.06.09-16.06.57:411][ 14]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.06.09-16.06.57:421][ 14]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.06.09-16.06.57:422][ 14]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.06.09-16.06.57:424][ 14]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.06.09-16.06.57:427][ 14]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.06.09-16.06.57:428][ 14]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.06.09-16.06.57:438][ 14]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.06.09-16.06.57:443][ 14]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.06.09-16.06.57:443][ 14]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.06.09-16.06.57:443][ 14]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.06.09-16.06.57:443][ 14]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.06.09-16.06.57:443][ 14]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.06.09-16.06.57:443][ 14]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.06.09-16.06.57:443][ 14]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.06.09-16.06.57:443][ 14]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.06.09-16.06.57:443][ 14]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.06.09-16.06.57:447][ 14]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.06.09-16.06.57:466][ 14]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.06.09-16.06.57:466][ 14]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.06.09-16.06.57:466][ 14]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.06.09-16.06.57:466][ 14]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.06.09-16.06.57:467][ 14]LogHMD: Freeing OpenVRDLLHandle.
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.06.09-16.06.57:467][ 14]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.06.09-16.06.57:468][ 14]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.06.09-16.06.57:468][ 14]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.06.09-16.06.57:503][ 14]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.06.09-16.06.57:503][ 14]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.06.09-16.06.57:503][ 14]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4E4E516B-4B15-060D-0DE3-48B100AE0615%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=1374cd36468e782ba25fe5adf2f63b93%7Cfd7d004102f64cf8aec9a35d3acee4ee%7C358df5a9-235c-46f0-b7ed-777b6cefeae0&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.06.09-16.06.57:511][ 14]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.06.09-16.06.57:512][ 14]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.06.09-16.06.57:514][ 14]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.06.09-16.06.57:515][ 14]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.06.09-16.06.57:515][ 14]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.06.09-16.06.57:515][ 14]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.06.09-16.06.57:515][ 14]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.06.09-16.06.57:515][ 14]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.06.09-16.06.57:516][ 14]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.06.09-16.06.57:516][ 14]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.06.09-16.06.57:516][ 14]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.06.09-16.06.57:516][ 14]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.06.09-16.06.57:516][ 14]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.06.09-16.06.57:516][ 14]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.06.09-16.06.57:516][ 14]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.06.09-16.06.57:517][ 14]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.06.09-16.06.57:517][ 14]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.06.09-16.06.57:517][ 14]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.06.09-16.06.57:517][ 14]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.06.09-16.06.57:517][ 14]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.06.09-16.06.57:518][ 14]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.06.09-16.06.57:519][ 14]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.06.09-16.06.57:519][ 14]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.06.09-16.06.57:519][ 14]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.06.09-16.06.57:519][ 14]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.06.09-16.06.57:519][ 14]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.06.09-16.06.57:519][ 14]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.06.09-16.06.57:519][ 14]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.06.09-16.06.57:519][ 14]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.06.09-16.06.57:519][ 14]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.06.09-16.06.57:519][ 14]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.06.09-16.06.57:519][ 14]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.06.09-16.06.57:519][ 14]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.06.09-16.06.57:520][ 14]LogD3D11RHI: Shutdown
+[2020.06.09-16.06.57:520][ 14]LogD3D11RHI: CleanupD3DDevice
+[2020.06.09-16.06.57:533][ 14]LogExit: Exiting.
+[2020.06.09-16.06.57:544][ 14]Log file closed, 06/09/20 12:06:57
